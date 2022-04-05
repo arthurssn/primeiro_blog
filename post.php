@@ -18,7 +18,7 @@ if (isset($_GET['id'])) {
 }
 ?>
 
-<main>
+<main class="bloco-noticia">
     <div>
         <h1><?= $currentPost['title'] ?></h1>
         <p><?= $currentPost['description'] ?></p>

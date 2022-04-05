@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="css/styleGrid.css">
-<link rel="stylesheet" href="css/styleCabecalho.css">
+<!-- <link rel="stylesheet" href="css/styleCabecalho.css"> -->
+<link rel="stylesheet" href="css\styleCabecalho.css">
 <?php
 include_once("./data/ultimasNoticias.php");
 include_once("./templates/header.php");
@@ -19,14 +20,14 @@ if (isset($_GET['not'])) {
 }
 ?>
 
-<main>
+<main class="bloco-noticia">
     <div>
         <h1><?= $noticialAtual['title'] ?></h1>
         <div>
-            <img src="./img//<?= $noticialAtual['img'] ?>" alt="<?= $noticialAtual['title'] ?>">
+            <img src="./img//<?= $noticialAtual['img'] ?>" alt="<?= $noticialAtual['title'] ?>" width="250px">
         </div>
     </div>
-    <p class="texto">
+    <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quis doloribus incidunt expedita numquam quos quae vitae nisi at earum. Omnis deserunt rem ea excepturi at dignissimos neque temporibus dolorem?
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quis doloribus incidunt expedita numquam quos quae vitae nisi at earum. Omnis deserunt rem ea excepturi at dignissimos neque temporibus dolorem?
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quis doloribus incidunt expedita numquam quos quae vitae nisi at earum. Omnis deserunt rem ea excepturi at dignissimos neque temporibus dolorem?

@@ -1,3 +1,6 @@
+<?php
+include_once("./helpers/url.php");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -15,10 +18,10 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="http://localhost/projetos/blog/">Início</a>
+                    <a href="<?= $BASE_URL ?>">Inicio</a>
                 </li>
                 <li>
-                    <a href="#noticias">Últimas notícias</a>
+                    <a href=" #noticias">Últimas notícias</a>
                 </li>
                 <li>
                     <a href="#Esportes">Esportes</a>

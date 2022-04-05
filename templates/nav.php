@@ -21,7 +21,7 @@ include_once("./data/ultimasNoticias.php");
                     <img class="noticia" src="img\<?= $noticia['img'] ?>" alt="Nao foi possível carregar a imagem" width="120px">
 
                     <h4 class="texto">
-                        <a href="<?= $BASE_URL ?>noticia.php?not=<?= $noticia['not'] ?>"><?= $noticia['title'] ?></a>
+                        <a href="<?= $BASE_URL ?>postNoticias.php?not=<?= $noticia['not'] ?>"><?= $noticia['title'] ?></a>
                     </h4>
                 </div>
                 <br>

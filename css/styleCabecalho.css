@@ -57,8 +57,14 @@ body {
 
 .texto {
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 .bloco-noticia {
     margin-left: 20px;
+}
+
+.imagem-noticia {
+    width: 250px;
 }
