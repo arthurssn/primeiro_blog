@@ -27,7 +27,7 @@ if (isset($_GET['not'])) {
             <img src="./img//<?= $noticialAtual['img'] ?>" alt="<?= $noticialAtual['title'] ?>" width="250px">
         </div>
     </div>
-    <p>
+    <p class="texto">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quis doloribus incidunt expedita numquam quos quae vitae nisi at earum. Omnis deserunt rem ea excepturi at dignissimos neque temporibus dolorem?
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quis doloribus incidunt expedita numquam quos quae vitae nisi at earum. Omnis deserunt rem ea excepturi at dignissimos neque temporibus dolorem?
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quis doloribus incidunt expedita numquam quos quae vitae nisi at earum. Omnis deserunt rem ea excepturi at dignissimos neque temporibus dolorem?
