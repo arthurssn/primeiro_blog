@@ -21,7 +21,9 @@ include_once("./helpers/url.php");
                     <a href="<?= $BASE_URL ?>">Inicio</a>
                 </li>
                 <li>
-                    <a href=" #noticias">Últimas notícias</a>
+                    <a href="<?= $BASE_URL ?>noticias.php">Últimas notícias</a>
+                    <!-- <a href=" #noticias">Últimas notícias</a> -->
+                    <!-- <a href="<?= $BASE_URL ?>post.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a> -->
                 </li>
                 <li>
                     <a href="#Esportes">Esportes</a>

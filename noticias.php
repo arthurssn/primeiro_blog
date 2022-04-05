@@ -1,4 +1,7 @@
 <?php
+include_once("./data/posts.php");
+include_once("./templates/header.php");
+include_once("./templates/footer.php");
 include_once("./data/ultimasNoticias.php");
 ?>
 <!DOCTYPE html>
@@ -8,7 +11,8 @@ include_once("./data/ultimasNoticias.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styleCabecalho.css">
+    <title>Últimas notícias</title>
 </head>
 
 <body>
